@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "thekatacode"
-  gem.homepage = "http://github.com/gorbiromaric/thekatacode"
+  gem.homepage = "http://github.com/docteurdiam/thekatacode"
   gem.license = "MIT"
   gem.summary = "one-line summary of your gem"
   gem.description = "longer description of your gem"
