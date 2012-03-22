@@ -1,4 +1,4 @@
-class Chiffreromain
+class ChiffreRomain
  
   def decomposition(number)
     @chiffre = number
@@ -6,12 +6,12 @@ class Chiffreromain
     valeur = [1000,900,500,400,100,90,40,10,9,5,4,1]
     valeur.each{ |value|
       valeur_du_tableau = @chiffre / value
-      decomposition.push(resul.to_i)
+      decomposition.push(valeur_du_tableau.to_i)
       @chiffre = @chiffre % value      
     }
     return decomposition       
   end
-  ## function
+
   def le_chiffre_romain(number)
     @lechiffre = number
     reference = ['M','CM','D','CD','C','XC','XL','X','IX','V','IV','I']
