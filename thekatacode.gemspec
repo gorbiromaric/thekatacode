@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/chiffre_romain.rb",
     "spec/chiffre_romain_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "thekatacode.gemspec"
   ]
   s.homepage = %q{http://github.com/gorbiromaric/thekatacode}
   s.licenses = [%q{MIT}]
