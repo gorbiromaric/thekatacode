@@ -11,7 +11,7 @@ class Chiffreromain
     }
     return decomposition       
   end
-  
+  ## function
   def le_chiffre_romain(number)
     @lechiffre = number
     reference = ['M','CM','D','CD','C','XC','XL','X','IX','V','IV','I']

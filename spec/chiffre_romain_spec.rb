@@ -17,7 +17,7 @@ describe Chiffreromain do
     end 
   end
  
-  describe "le_chiffre_romain" do
+  describe "le_chiffre_romain " do
     it "devrait afficher CCC " do
       @chiffreromain.le_chiffre_romain(300).should == 'CCC'
     end 
@@ -27,10 +27,10 @@ describe Chiffreromain do
     it "devrait afficher MD" do
       @chiffreromain.le_chiffre_romain(1500).should == 'MD'
     end 
-    it "devrait afficher DCCCXLIX" do
+    it "devrait afficher DCCCXLIX " do
       @chiffreromain.le_chiffre_romain(849).should == 'DCCCXLIX'
     end 
-    it "devrait afficher DCCCXLIX" do
+    it "devrait afficher DCCCXLIX  " do
       @chiffreromain.le_chiffre_romain(999).should == 'CMXCIX'
     end     
   end  
